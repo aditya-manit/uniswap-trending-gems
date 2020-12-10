@@ -24,3 +24,5 @@ yarn-error.log*
 .eslintcache
 .idea/inspectionProfiles/
 .idea/vcs.xml
+        .idea/.name
+
