@@ -2,26 +2,9 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import axios from 'axios';
 import React, {useState} from 'react';
-// import { library, icon } from '@fortawesome/fontawesome-svg-core';
-// import { faCamera } from '@fortawesome/free-solid-svg-icons';
 
 
 function App() {
-
-//     const query = `
-// {
-//   tokens(orderDirection: desc
-//   orderBy: txCount
-//   first: 10) {
-//     txCount
-//     id
-//     symbol
-//     name
-//     decimals
-//   }
-// }
-//   `;
-
 
     const query = `
 
@@ -99,6 +82,10 @@ function App() {
                 If you haven't heard about any of the coin in the list yet, Time to ape in !<br/>
                 And yes its spam proof
             </h2>
+            <h3>
+                <a href="https://thegraph.com/explorer/">Build On TheGraph</a>
+
+            </h3>
 
 
 
