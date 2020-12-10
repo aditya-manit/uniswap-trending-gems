@@ -41,15 +41,15 @@
 }
 
 .book {
-  background: #fff;
   position: relative;
+  font-size: 19px;
   border-radius: 5px;
   padding: 20px;
   margin: 10px;
   width: 47%;
   color: #333;
   flex-basis: width;
-  background-color: rgb(165, 230, 230);
+  background-color: rgba(76,175,80, 0.7);
 }
 
 .book h3 {
@@ -67,3 +67,85 @@
 .details {
   text-align: left;
 }
+
+body {
+  background-image: url('Unicorn-Exchange-Uniswap-DEX-Has-no-Token-and-Much-Smart-Contract-1120x669 (1).png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+/*.button {*/
+/*  position: relative;*/
+/*  padding: 8px 16px;*/
+/*  background: #009579;*/
+/*  border: none;*/
+/*  outline: none;*/
+/*  border-radius: 2px;*/
+/*  cursor: pointer;*/
+/*}*/
+
+/*.button:active {*/
+/*  background: #007a63;*/
+/*}*/
+
+/*.button__text {*/
+/*  font: bold 20px "Quicksand", san-serif;*/
+/*  color: #ffffff;*/
+/*  transition: all 0.2s;*/
+/*}*/
+
+/*.button--loading .button__text {*/
+/*  visibility: hidden;*/
+/*  opacity: 0;*/
+/*}*/
+
+/*.button--loading::after {*/
+/*  content: "";*/
+/*  position: absolute;*/
+/*  width: 16px;*/
+/*  height: 16px;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  right: 0;*/
+/*  bottom: 0;*/
+/*  margin: auto;*/
+/*  border: 4px solid transparent;*/
+/*  border-top-color: #ffffff;*/
+/*  border-radius: 50%;*/
+/*  animation: button-loading-spinner 1s ease infinite;*/
+/*}*/
+
+/*@keyframes button-loading-spinner {*/
+/*  from {*/
+/*    transform: rotate(0turn);*/
+/*  }*/
+
+/*  to {*/
+/*    transform: rotate(1turn);*/
+/*  }*/
+/*}*/
