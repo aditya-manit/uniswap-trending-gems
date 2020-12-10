@@ -78,6 +78,7 @@ function App() {
             {/*<div className="bgimg-1"></div>*/}
 
             <h1><b>Uniswap Trending Gems</b></h1>
+            <h1>  </h1>
             <h2>This gives top 20 Trending Uniswap picks For Today<br/>
                 If you haven't heard about any of the coin in the list yet, Time to ape in !<br/>
                 And yes its spam proof
